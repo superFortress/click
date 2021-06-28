@@ -6,10 +6,10 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 
 /* Components */
-import App from './Component/App';
+import App from './component/App';
 
 /* Style */
-import './Style/index.css';
+import './style/index.css';
 
 /* EXPORT */
 
