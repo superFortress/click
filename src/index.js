@@ -1,4 +1,4 @@
-/* IMPORT */
+/* I M P O R T */
 
 /* Module */
 import React from 'react';
@@ -11,7 +11,7 @@ import App from './component/App';
 /* Style */
 import './style/index.css';
 
-/* EXPORT */
+/* E X P O R T */
 
 ReactDOM.render(
     <React.StrictMode>

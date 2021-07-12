@@ -1,20 +1,33 @@
-/* IMPORT */
+/* I M P O R T */
 
-/* Modules */
+/* Module */
 import React, {PureComponent} from "react";
+
+/* Component */
+import Button from './Button';
 
 /* Style */
 import '../style/app.css';
 
+/* E X P O R T */
 
-/* EXPORT */
+export default class App extends PureComponent {
 
-function App() {
-    return (
-        <div className="App">
-            hello babby
-        </div>
-    );
+    /* Constructor */
+    constructor() {
+        super();
+        // state
+        this.state = {
+            click: 0,
+        }
+    }
+
+    /* Render */
+    render() {
+        return (
+            <div className="App">
+                <Button />
+            </div>
+        );
+    }
 }
-
-export default App;
