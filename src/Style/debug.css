@@ -1,0 +1,32 @@
+/* C L A S S */
+
+/* debug */
+.debug {
+    z-index:100;
+
+    user-select: none;
+
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+.debug ul {
+    list-style-type: none;
+
+    margin: 0 0 18px;
+    padding: 0;
+}
+.debug ul:before{
+    content: attr(aria-label) ': {';
+}
+.debug ul:after {
+    content: '}';
+}
+.debug ul > ul {
+    margin: 0 0 0 21px;
+}
+.debug ul li {
+    white-space: nowrap;
+    
+    margin: 0 0 0 21px;
+}
