@@ -1,0 +1,64 @@
+/* C L A S S */
+
+/* button */
+.button {
+    width: 320px;
+    height: 140px;
+
+    cursor: hand;
+    cursor: pointer;
+    user-select: none;
+
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button:hover .button-top {
+    transition: all 0.15s;
+}
+.button:active .button-top {
+    transition: all 0.05s;
+}
+
+/* button-top, button-bottom */
+.button-top, .button-bottom {
+    border-radius: 16px;
+    width: 100%;
+    height: 120px;
+
+    position: absolute;
+    left: 0;
+}
+
+/* button-top */
+.button-top {
+    background: #f00;
+    z-index: 20;
+
+    top: 0;
+}
+.button-top p {
+    color: #ffffff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 0;
+    text-align: center;
+
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 52%;
+    transform: translateY(-50%);
+}
+
+/* button-bottom */
+.button-bottom {
+    background: #c50010;
+    z-index: 10;
+
+    top: 20px;
+}

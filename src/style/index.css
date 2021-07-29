@@ -1,0 +1,22 @@
+/* E L E M E N T */
+
+/* body */
+body {
+    color: black;
+    font-family: 'Lucida Console', Monaco, monospace;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: 18px;
+
+    background: linear-gradient(45deg, #202f3e , #3c4769);
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
